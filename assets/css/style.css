@@ -1,21 +1,23 @@
 .header {
     margin: 0px;
     padding: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #cccccc;
     overflow: hidden;
+    background: #ffffff;
 }
 
 h1 {
     margin: 0px;
-    background: seagreen;
+    background: #4aaaa5;
     float: left;
     padding: 10px 30px;
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 
 .container {
-    background: white;
+    background: #ffffff;
     margin: 0px;
     padding-top: 30px;
     padding-left: 50px;
@@ -32,18 +34,18 @@ h1 {
 h2 {
     margin-top: 0px;
     padding-bottom: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #dddddd;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: seagreen;
+    color: #4aaaa5;
     /*background: blueviolet*/
 }
 
 a:visited {
-    color: rgb(63, 63, 63);
+    color: #777777;
 }
 
 a {
-    color: rgb(63, 63, 63);
+    color: #777777;
     text-decoration: none;
 }
 
@@ -52,7 +54,7 @@ p {
     padding: 0px;
     line-height: 1.7;
     padding-bottom: 20px;
-    color: rgb(63, 63, 63);
+    color: #777777;
 }
 
 img {
@@ -69,7 +71,7 @@ body {
 }
 
 .background {
-    background: rgb(185, 185, 185);
+    background-image: url("../images/criss-cross/criss-cross/criss-cross.png");
     clear: left;
     margin: 0px;
     padding-top: 30px;
@@ -77,10 +79,10 @@ body {
 }
 
 footer {
-    background: grey;
+    background: #666666;
     padding-top: 30px;
     text-align: center;
-    border-top: 10px solid seagreen;
+    border-top: 10px solid #4aaaa5;
     font-size: 16px;
     padding-bottom: 5px;
 }
@@ -111,7 +113,7 @@ form {
     display: block;
     float: left;
     margin-top: 10px;
-    background: seagreen;
+    background: #4aaaa5;
     border: none;
     color: white;
     padding: 8px 25px;
@@ -153,7 +155,7 @@ form {
     position: absolute;
     top: 175px;
     text-align: center;
-    background: seagreen;
+    background: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
