@@ -138,3 +138,31 @@ form {
     overflow:hidden;
     /*background: red;*/
 }
+
+.box {
+    float: left;
+    position: relative;
+}
+
+.port-img {
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+.port-img-label {
+    position: absolute;
+    top: 175px;
+    text-align: center;
+    background: seagreen;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: .8;
+}
+
+.port-cont {
+    padding-bottom: 10px;
+}
