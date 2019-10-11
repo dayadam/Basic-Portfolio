@@ -9,44 +9,85 @@ h1 {
     margin: 0px;
     background: seagreen;
     float: left;
-    padding: 10px;
+    padding: 10px 30px;
     position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.container{
+.container {
     background: white;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
 }
 
 .width {
     width: 75%;
     margin: 0 auto;
+    /*padding: 0px;*/
+}
+
+h2 {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: seagreen;
+}
+
+a:visited {
+    color: rgb(63, 63, 63);
+}
+
+a {
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+    color: rgb(63, 63, 63);
 }
 
 img {
+    padding-top: 8.5px;
     float: left;
+    padding-right: 30px;
 }
 
 body {
     margin: 0 auto;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .background {
     background: rgb(185, 185, 185);
     clear: left;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 footer {
     background: grey;
+    padding-top: 30px;
     text-align: center;
+    border-top: 10px solid seagreen;
+    font-size: 16px;
+    padding-bottom: 5px;
 }
 
 ul {
-    background: red;
     list-style-type: none;
     margin: 0px;
+    padding-top: 24.5px;
 }
 
 li {
