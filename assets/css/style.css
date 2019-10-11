@@ -35,6 +35,7 @@ h2 {
     border-bottom: 2px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: seagreen;
+    /*background: blueviolet*/
 }
 
 a:visited {
@@ -90,7 +91,50 @@ ul {
     padding-top: 24.5px;
 }
 
+li:last-child {
+    border-left: none;
+}
+
 li {
     float: right;
-    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #aaa;
+}
+
+form {
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.submit {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    background: seagreen;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.message {
+    height: 200px;
+}
+
+.input {
+    width: 99.5%;
+    float: left;
+}
+
+.contactpara {
+    padding-bottom: 0px;
+    float: left;
+    font-size: 18px;
+}
+
+.block{
+    overflow:hidden;
+    /*background: red;*/
 }
